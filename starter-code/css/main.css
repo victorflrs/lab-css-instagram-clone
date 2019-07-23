@@ -32,25 +32,29 @@ h1{
   display: inline
 }
 
-li {
+.acomodo{
+  display: grid;
+  grid-template-columns: 40% 60%
+}
 
+.mockups{
+  grid-row: 1/2;
+}
+
+li {
   color: #1c5380;
   display: inline;
   font-weight: 700;
   text-transform: uppercase;
   font-size: 0.7em;
   margin: 0 2%;
-
-
 }
 
 button{
 
   text-align: left;
-  border-radius: 5px;
   padding: 10px 20px;
   box-shadow: 0px 0px 5px #3F6587;
-  height: 100%;
   background-image: linear-gradient(180deg, #477298 0%, #7295B3 100%);
   border: 1px solid #335F86;
   border-radius: 2px;
@@ -59,4 +63,13 @@ button{
 
 .copy {
   color:gray;
+}
+
+.card {
+  grid-column: 2;
+  grid-row: 2/3;
+}
+
+.login{
+  grid-row: 1;
 }
