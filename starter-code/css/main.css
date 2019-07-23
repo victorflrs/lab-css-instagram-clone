@@ -5,6 +5,58 @@ light blue: #1c5380
 */
 
 body {
-  font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
+  background: url("../images/bgtile.png") repeat-x;
+}
+
+h1{
+  font-weight: 700;
+  color: #06365f;
+  font-size: 2.25em;
+  width: 85%;
+  line-height: 1.5em;
+  margin-top: 0;
+}
+
+.card{
+  background: #FFFFFF;
+  box-shadow: 0 -3px 4px 1px rgba(0,0,0,0.25);
+  width: 60%;
+  background: #FFFFFF;
+  border-radius: 6px 6px 0 0;
+  padding: 0 5% 30px;
+}
+
+.descarga{
+  display: inline
+}
+
+li {
+
+  color: #1c5380;
+  display: inline;
+  font-weight: 700;
+  text-transform: uppercase;
+  font-size: 0.7em;
+  margin: 0 2%;
+
+
+}
+
+button{
+
+  text-align: left;
+  border-radius: 5px;
+  padding: 10px 20px;
+  box-shadow: 0px 0px 5px #3F6587;
+  height: 100%;
+  background-image: linear-gradient(180deg, #477298 0%, #7295B3 100%);
+  border: 1px solid #335F86;
+  border-radius: 2px;
+  color: white;
+}
+
+.copy {
+  color:gray;
 }
