@@ -1,58 +1,34 @@
-/*
-Colors to use:
-dark blue: #06365f
-light blue: #1c5380
-*/
 
 body {
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
-  background: url("../images/bgtile.png") repeat-x;
 }
 
 h1{
-  font-weight: 700;
-  color: #06365f;
-  font-size: 2.25em;
-  width: 85%;
-  line-height: 1.5em;
-  margin-top: 0;
+  color:#0f2f56;
+  font-size: 2em;
+  margin: 0;
 }
 
-.card{
-  background: #FFFFFF;
-  box-shadow: 0 -3px 4px 1px rgba(0,0,0,0.25);
-  width: 60%;
-  background: #FFFFFF;
-  border-radius: 6px 6px 0 0;
-  padding: 0 5% 30px;
+header{
+  height: 300px;
+  background-image: url('../images/bgtile.png');
+  background-repeat: repeat-x;
 }
 
-.descarga{
-  display: inline
+header img{
+  vertical-align: middle;
 }
 
-.acomodo{
-  display: grid;
-  grid-template-columns: 40% 60%
-}
-
-.mockups{
-  grid-row: 1/2;
-}
-
-li {
-  color: #1c5380;
-  display: inline;
-  font-weight: 700;
-  text-transform: uppercase;
-  font-size: 0.7em;
-  margin: 0 2%;
+.logo{
+  position: relative;
+  width: 539px;
+  top: calc(50% - 39px);
+  left: 47%;
+  
 }
 
 button{
-
-  text-align: left;
   padding: 10px 20px;
   box-shadow: 0px 0px 5px #3F6587;
   background-image: linear-gradient(180deg, #477298 0%, #7295B3 100%);
@@ -61,15 +37,56 @@ button{
   color: white;
 }
 
-.copy {
-  color:gray;
+button > i {
+  padding-right: 5px;
 }
 
-.card {
-  grid-column: 2;
-  grid-row: 2/3;
+
+
+.mockups{
+  width: 50%;
+  position: relative;
+  float: left;
+  text-align: center;
+  margin-top: -210px;
 }
 
-.login{
-  grid-row: 1;
+.card{
+  padding: 35px;
+  position: relative;
+  float: left;
+  background: #FFFFFF;
+  box-shadow: 0 -3px 4px 1px rgba(0,0,0,0.25);
+  border-radius: 6px 6px 0 0;
+  padding: 0 5% 30px;
+  width: 45%;
+  position: relative;
+  float: left;
+  margin-top: -80px;
+  margin-left: -50px;
+}
+
+.descarga{
+  margin-right: 20px;
+}
+
+footer{
+  margin-top: 410px;
+}
+
+ol{
+text-align: center;
+}
+
+li{
+  display: inline;
+  padding: 0 10px;
+  color: #6d8fad;
+  font-weight: bold;
+  font-size: 14px;
+}
+
+.copy{
+  padding: 0 15px;
+  color: #aeaeaf;
 }
