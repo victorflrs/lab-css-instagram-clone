@@ -64,6 +64,7 @@ button > i {
   float: left;
   margin-top: -80px;
   margin-left: -50px;
+  max-width: 415px;
 }
 
 .descarga{
